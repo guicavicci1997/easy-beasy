@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('/assets/fonts/Gotham-Font/GothamMedium_1.ttf')  format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('/assets/fonts/Gotham-Font/GothamLight.ttf')  format('truetype');
+}
+
+* {
+    font-family: 'Gotham-Medium';
+}

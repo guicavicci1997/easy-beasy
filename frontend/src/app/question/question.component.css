@@ -1,0 +1,29 @@
+.question-title {
+    padding-top: 30px;
+    font-family: 'Gotham-Medium';
+}
+
+.question-box {
+    text-align: center;
+    height: 50px;
+}
+
+.image-question {
+    width: 60%;
+    height: 400px;
+    text-align: center;
+}
+
+.margin-top {
+    padding-top: 11px;
+}
+
+.question-option {
+    height: 60px;
+    border-radius: 0px;
+}
+
+.space {
+    margin-left: 20px;
+    margin-top: 50px;
+}

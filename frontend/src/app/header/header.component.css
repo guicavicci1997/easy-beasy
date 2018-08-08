@@ -1,0 +1,15 @@
+.white-pic {
+    filter: brightness(0) invert(1); 
+}
+
+.easy-beasy-default-text{
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.line-bottom-gray {
+    -webkit-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.53);
+    -moz-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.53);
+    box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.53);
+    background-color: #22a6b3;
+}

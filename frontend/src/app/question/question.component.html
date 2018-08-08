@@ -1,0 +1,14 @@
+<div *ngFor="let question of questions;  let i = index" [hidden]="i == 0">
+  <h1 class="question-title"> {{i}}. {{ question.title }}</h1>
+  <div class="question-box">
+    <div class="col-md-12">
+      <img src="../../img/{{ question.img }}" height="300" class="image-question" id="image-question" />
+    </div>
+    <div class="col-md-12 margin-top">
+      <button type="button" class="question-option btn btn-outline-info">{{ question.opt1 }}</button>
+      <button type="button" class="question-option btn btn-outline-info">{{ question.opt2 }}</button>
+      <button type="button" class="question-option btn btn-outline-info">{{ question.opt3 }}</button>
+      <button type="button" class="question-option btn btn-outline-info">{{ question.opt4 }}</button>
+    </div>
+  </div>
+</div>  
